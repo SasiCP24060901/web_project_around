@@ -3,7 +3,151 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="author" content="Susana Cárdenas" />
+    <meta name="description" content="Visiting Places" />
+    <meta
+      name="keywords"
+      content="diseño responsivo, tablet, movile, gallery, places, photos"
+    />
+    <title>Around the U.S.</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="preconnect" href="./vendor/fonts.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="page">
+      <!-- HEADER -->
+      <header class="header">
+        <img src="./images/Around.svg" alt="Logo Around" class="header__logo" />
+      </header>
+
+      <!-- PROFILE -->
+      <main class="profile">
+        <img src="./images/Avatar.png" alt="Foto Jacques" class="logo__image" />
+
+        <div class="profile__info">
+          <div class="profile__header">
+            <h1 class="profile__name">Jacques Cousteau</h1>
+            <button type="button" class="profile__edit-button">
+              <img
+                src="./images/Editor.png"
+                alt="Editar perfil"
+                class="profile__edit-image"
+              />
+            </button>
+          </div>
+          <p class="profile__role">Explorador</p>
+        </div>
+
+        <button type="button" class="profile__add-button">
+          <img
+            src="./images/Add.png"
+            alt="Agregar"
+            class="profile__add-image"
+          />
+        </button>
+      </main>
+
+      <!-- GALLERY -->
+      <section class="gallery__grid">
+        <div class="gallery__item">
+          <img
+            src="./images/Valle de Yosemit.jpg"
+            alt="Valle de Yosemit"
+            class="gallery__image"
+          />
+          <div class="gallery__info">
+            <p class="gallery__title">Valle de Yosemit</p>
+            <img
+              src="./images/Heart.svg"
+              alt="Corazón"
+              class="gallery__heart"
+            />
+          </div>
+        </div>
+
+        <div class="gallery__item">
+          <img
+            src="./images/Lago Luoise.jpg"
+            alt="Lago Luoise"
+            class="gallery__image"
+          />
+          <div class="gallery__info">
+            <p class="gallery__title">Lago Louisse</p>
+            <img
+              src="./images/Heart.svg"
+              alt="Corazón"
+              class="gallery__heart"
+            />
+          </div>
+        </div>
+
+        <div class="gallery__item">
+          <img
+            src="./images/Montañas Calvas.jpg"
+            alt="Montañas Calvas"
+            class="gallery__image"
+          />
+          <div class="gallery__info">
+            <p class="gallery__title">Montañas Calvas</p>
+            <img
+              src="./images/Heart.svg"
+              alt="Corazón"
+              class="gallery__heart"
+            />
+          </div>
+        </div>
+
+        <div class="gallery__item">
+          <img
+            src="./images/Latemar.jpg"
+            alt="Latemar"
+            class="gallery__image"
+          />
+          <div class="gallery__info">
+            <p class="gallery__title">Latemar</p>
+            <img
+              src="./images/Heart.svg"
+              alt="Corazón"
+              class="gallery__heart"
+            />
+          </div>
+        </div>
+
+        <div class="gallery__item">
+          <img
+            src="./images/Vanoise National.jpg"
+            alt="Vanoise National"
+            class="gallery__image"
+          />
+          <div class="gallery__info">
+            <p class="gallery__title">Vanoise National</p>
+            <img
+              src="./images/Heart.svg"
+              alt="Corazón"
+              class="gallery__heart"
+            />
+          </div>
+        </div>
+
+        <div class="gallery__item">
+          <img
+            src="./images/Lago di Braies.jpg"
+            alt="Lago di Braies"
+            class="gallery__image"
+          />
+          <div class="gallery__info">
+            <p class="gallery__title">Lago di Braies</p>
+            <img
+              src="./images/Heart.svg"
+              alt="Corazón"
+              class="gallery__heart"
+            />
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>

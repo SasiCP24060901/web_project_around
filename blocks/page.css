@@ -1,0 +1,13 @@
+body {
+  background-color: #000;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.page {
+  background-color: #000;
+  max-width: 880px;
+  margin: 45px auto 0;
+  border-radius: 1px;
+}
