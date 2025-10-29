@@ -19,6 +19,6 @@
 
   .footer__text {
     font-size: 14px;
-    text-align: center; /* 👈 opcional: se ve mejor centrado en móvil */
+    text-align: center;
   }
 }
