@@ -77,3 +77,11 @@
 .popup__close:hover {
   opacity: 0.6;
 }
+
+@media screen and (max-width: 480px) {
+  .popup__container {
+    width: calc(100%-48px);
+    padding: 20px;
+    margin: 24px;
+  }
+}
